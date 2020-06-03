@@ -129,16 +129,13 @@ a:hover {
     padding-bottom: 100px;
 }
 
-.endo {
-    padding-bottom: 82px;
-}
-
 .exo {
     background: #ddd;
 }
 
 .endo {
     background: rgb(192, 192, 192);
+    padding-bottom: 82px;
 }
 
 .exo p,
@@ -155,6 +152,7 @@ a:hover {
         margin-top: 10px;
         padding-bottom: 100px;
         height: 100%;
+        padding: 30px;
     }
 }
 
