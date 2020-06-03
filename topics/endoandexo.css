@@ -152,6 +152,7 @@ a:hover {
         float: none;
         width: 100%;
         margin-top: 10px;
+        padding-bottom: 100px;
         height: 560px;
     }
 }
