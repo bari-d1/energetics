@@ -176,3 +176,18 @@ a:hover {
         border: none;
     }
 }
+
+.temp-change {
+    width: 80%;
+    height: 600px;
+    border: solid 10px grey;
+}
+
+@media screen and (max-width: 600px) {
+    .temp-change {
+        width: 100%;
+        height: 250px;
+        margin: 0 !important;
+        padding: 0;
+    }
+}
