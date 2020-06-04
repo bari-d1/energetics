@@ -165,7 +165,7 @@ a:hover {
     margin-right: 25%;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1000px) {
     .reaction-explan p {
         margin-left: 0;
         margin-right: 0;
@@ -178,8 +178,12 @@ a:hover {
 }
 
 .temp-change {
-    width: 80%;
-    height: 600px;
+    width: 70%;
+    height: 500px;
+    border: solid 10px grey;
+}
+
+.pressure-change {
     border: solid 10px grey;
 }
 
@@ -189,5 +193,10 @@ a:hover {
         height: 250px;
         margin: 0 !important;
         padding: 0;
+        border: none;
+    }
+    .pressure-change {
+        width: 100%;
+        border: none;
     }
 }
