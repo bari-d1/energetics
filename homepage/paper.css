@@ -1,0 +1,23 @@
+.paper {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.paper a {
+    text-decoration: none;
+    color: white;
+}
+
+.paper:hover {
+    background: linear-gradient(to right, rgb(30, 0, 255), rgb(0, 217, 255));
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .paper {
+        width: 200px;
+    }
+}
